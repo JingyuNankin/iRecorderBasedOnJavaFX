@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="anchorPane1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1136.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SceneController1">
+   <children>
+      <AnchorPane fx:id="mainPagePane" prefHeight="536.0" prefWidth="900.0">
+         <children>
+            <ImageView fx:id="imageView2" fitHeight="536.0" fitWidth="900.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pic/GUIDesign-01.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="bigLabelTitle" layoutX="48.0" layoutY="44.0" text="【洛天依乐正绫】婆婆纳甸长河长3.0【原创曲PV付】" textFill="#343844">
+               <font>
+                  <Font name="Microsoft YaHei" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="bvidLabel" layoutX="48.0" layoutY="88.0" maxWidth="120.0" prefHeight="19.0" prefWidth="120.0" text="BV1Qs411k7Qv" textAlignment="CENTER" textFill="#7a8a99">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="tnameLabel" layoutX="206.0" layoutY="88.0" prefHeight="19.0" prefWidth="149.0" text="VOCALOID·UTAU" textFill="#777777">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="otherInfoLabel" layoutX="561.0" layoutY="88.0" prefHeight="19.0" prefWidth="149.0" text="VOCALOID·UTAU" textFill="#777777">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="midLabel1" layoutX="48.0" layoutY="141.0" prefHeight="30.0" prefWidth="137.0" text="摘要" textFill="WHITE">
+               <font>
+                  <Font name="Microsoft YaHei" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="midLabel2" layoutX="272.0" layoutY="141.0" prefHeight="30.0" prefWidth="137.0" text="数据" textFill="#7a8999">
+               <font>
+                  <Font name="Microsoft YaHei" size="16.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="picImageView" fitHeight="121.0" fitWidth="180.0" layoutX="48.0" layoutY="188.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pic/pic_BV1Qs411k7Qv.png" />
+               </image>
+               <viewport>
+                  <Rectangle2D />
+               </viewport>
+            </ImageView>
+            <ImageView fx:id="ownerFaceImageView" fitHeight="24.0" fitWidth="24.0" layoutX="48.0" layoutY="308.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pic/face_396194.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="descLabel" alignment="TOP_LEFT" layoutX="48.0" layoutY="338.0" prefHeight="140.0" prefWidth="180.0" text="#include &lt;iostream&gt;using namespace std;int main(){/*徵羽摩柯，如约苏醒。*/cout&lt;&lt;&quot;*****Hello World!!*****&quot;&lt;&lt;endl&lt;&lt;&quot;曲名:你好，世界！&quot;&lt;&lt;endl&lt;&lt;&quot;作曲:正弦函数p&quot;&lt;&lt;endl&lt;&lt;&quot;作词:鸣泣的紫蝶&quot;&lt;&lt;endl&lt;&lt;&quot;曲绘:偶尤大肥羊&quot;&lt;&lt;endl&lt;&lt;&quot;PV:hisa镜&quot;&lt;&lt;endl&lt;&lt;&quot;调校/策划:OQQ君&quot;&lt;&lt;endl&lt;&lt;&quot;演唱:徵羽摩柯&quot;&lt;&lt;endl&lt;&lt;&quot;徵羽摩柯中之人:苏尚卿(西呱双)&quot;&lt;&lt;endl;return 0;}" textFill="#dae2eb" wrapText="true">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="ownerNameLabel" alignment="BOTTOM_LEFT" layoutX="79.0" layoutY="310.0" prefHeight="19.0" prefWidth="149.0" text="OQQ_" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="pubtimeLabel" layoutX="369.0" layoutY="88.0" prefHeight="19.0" prefWidth="149.0" text="2018-08-03 08:15" textFill="#777777">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="fristPagePane" layoutY="600.0" prefHeight="536.0" prefWidth="900.0">
+         <children>
+            <ImageView fx:id="imageView1" fitHeight="536.0" fitWidth="900.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pic/GUIDesign-02.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="bigLabel1" layoutX="64.0" layoutY="48.0" text="初始化">
+               <font>
+                  <Font name="Microsoft YaHei" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="label1" layoutX="64.0" layoutY="108.0" text="视频的AV号、BV号或链接" textFill="#404040">
+               <font>
+                  <Font name="Microsoft YaHei" size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="textField1" layoutX="64.0" layoutY="138.0" onKeyTyped="#textField1Typed" prefHeight="29.0" prefWidth="258.0">
+               <font>
+                  <Font name="Microsoft YaHei" size="14.0" />
+               </font>
+            </TextField>
+            <Label fx:id="label2" layoutX="64.0" layoutY="239.0" text="数据存储路径" textFill="#404040">
+               <font>
+                  <Font name="Microsoft YaHei" size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="textField2" layoutX="64.0" layoutY="269.0" prefHeight="29.0" prefWidth="419.0" style="-fx-background-radius: 0; -fx-border-color: #ffffff;">
+               <font>
+                  <Font name="Microsoft YaHei" size="14.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="NONE" />
+               </cursor>
+            </TextField>
+            <Button fx:id="button1" disable="true" layoutX="64.0" layoutY="411.0" mnemonicParsing="false" onAction="#button1Checked" prefHeight="30.0" prefWidth="72.0" style="-fx-border-width: 0; -fx-background-color: #7A8999; -fx-background-radius: 5;" text="启 动" textFill="WHITE">
+               <font>
+                  <Font name="Microsoft YaHei" size="14.0" />
+               </font>
+            </Button>
+            <Label fx:id="labelInfo" layoutX="64.0" layoutY="167.0" textFill="#7a8999">
+               <font>
+                  <Font name="Microsoft YaHei" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
